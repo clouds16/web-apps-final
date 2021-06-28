@@ -1,0 +1,46 @@
+.myimg{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    position:absolute;
+    left: 10% ;
+    top: 10%
+  }
+
+.summary {
+    padding-left: 50vh;
+    padding-right:30vh;
+    padding-top: 5vh;
+
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+}
+
+
+.Testimonial {
+  padding: 2% 2%;
+}
+
+.review-images{
+  padding-top : 50px;
+  width: 200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+  position:relative;
+    left: 30% ;
+}
+
+.review-title {
+  position: relative;
+  top: -20%;
+  left: 40%;
+  color: hotpink;
+}
+
+.rating {
+  position: relative;
+  left: 40%
+}

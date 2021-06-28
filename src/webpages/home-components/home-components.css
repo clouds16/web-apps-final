@@ -1,0 +1,49 @@
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 20px;
+    background-color:rgb(144, 31, 209);
+    border:none;
+    overflow: hidden;
+    outline: none;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    top: 70%;
+    
+   
+}
+
+a {
+    text-decoration: none;
+}
+.btn:hover, btn:active {
+    background-color:rgb(73, 209, 31);
+
+}
+
+
+.btn-about {
+    left:20%;
+
+}
+
+.btn-destinations {
+    left: 5% ;
+}
+
+.homepage {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 8vh
+}
+
+.homepageimage {
+   
+    min-height: 100% ;
+    min-width: 100%;
+}

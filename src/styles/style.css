@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:   linear-gradient(rgb(250, 250, 253), pink);
+    max-width: 1200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+li a:hover{
+background-color: #111;
+}
+
+
+
+.header-block {
+    
+    background-image:  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url("images/OaxacaHD.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    background-attachment: fixed;
+ 
+    height: 40vw;
+
+    color: white;
+    font-size: 5vw;
+    font-weight: 400;
+    
+
+}
+
+.intro-text {
+    position: relative;
+    font-size: 100%;
+     top: 70%;
+     align-content: center;
+}
+
+div {
+    padding: 50px 20px;
+    
+}
+
+.main-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.introduction {
+    height: 40vw;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,2), rgba(0,0,0,0.3)), url('images/02.jpg');
+    background-size: cover;
+    background-blend-mode: color;
+    
+   
+}
+.intro-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('images/02.jpg');
+    background-size: cover;
+    background-blend-mode: color;
+    filter: blur(2px);
+}
+
+.intro-sect {
+
+ 
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.row {
+    margin: auto;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+div.col {
+ 
+    width: 20%;
+    min-height: 18vw ;
+    height: auto;
+
+}
+
+.images{
+    display: inline-block;
+}
+
+
+
+
+.box {
+    display: block;
+}
+
+.showcase-img {
+ 
+
+
+    width: auto;
+    height: 20vw;
+    padding: 5px 2px;
+
+}
+
+.options {
+    /* position: relative; */
+    /* background-image: linear-gradient(rgba(0,0,0,2), rgba(0,0,0,0.3)), url('images/options.jpg'); */
+    background-size: cover;
+    background-blend-mode: soft-light;
+
+
+    position: relative;
+  
+    height: 40vw;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.contact-quick{
+    display: block;
+}
+
+
+  .contacts {
+      margin: auto;
+    font-size: 10px;
+    font-style: italic;
+    
+  }
+
+  .phone , .email , .facebook {
+      display: inline-block;
+  }
+
+  .map-div{
+      margin: auto;
+      position: relative;
+      height: 40vw;
+  }
+
+  .gmap {
+      position: absolute;
+      left: 30%;
+      width: 40vw ;
+      height: 30vw;
+  }
+
+
+  .get-started {
+      background-image: url('/images/000.jpg');
+     /* filter: blur(2px); */
+      background-blend-mode: lighten;
+     
+   
+      height: 40vw;
+      background-color: mediumvioletred;
+      position: relative;
+  }
+
+.background-img {
+    justify-content: center;
+}
+
+
+  .get-started-img {
+    position: absolute;
+    transition: .5s ease;
+      
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+      height: 30vw;
+      width: auto;
+      border-radius: 30px;
+     
+  }
+
+  .start-button {
+    
+    transition: .5s ease;
+      position: absolute;
+      left: 50%;
+      top: 70%;
+      transform: translate(-50%, -50%);
+     
+      font-size: 26%;
+    font-size: x-large;
+    opacity: 0;
+    border-radius: 30px;
+    padding: 5px 20px;
+
+
+  }
+
+  a:link {
+      text-decoration: none;
+  }
+
+  .background-img:hover  .get-started{
+      opacity: 0.3;
+     
+  }
+
+.background-img:hover .start-button{
+    opacity: 1;
+}
+
